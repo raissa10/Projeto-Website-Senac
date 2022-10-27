@@ -1,0 +1,23 @@
+/* body {
+    background-color: rgb(131, 198, 198);
+    border: 2PX solid cornflowerblue;
+    margin: 100px 40px 10px 70px;
+} */
+
+.explicacao-margin {
+    border: 1px rgb(255, 168, 127);
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+}
+
+.explicacao-padding {
+
+    background-color: rgb(131, 198, 198);
+    border: 1px solid chocolate;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
