@@ -1,0 +1,50 @@
+.body {
+    height: 100%;
+    padding-left: 329px;
+    background-color: #edeff2;
+    font-family: Oswald, sans-serif;
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.lado-esquedo {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 329px;
+    height: 100%;
+    background-color: #2d3e4f;
+}
+
+.lado-direito {
+
+    background-color: black;
+    border: solid 2px blueviolet;
+    top: 2000px;
+    left: 0px;
+    right: 0px;
+    bottom: 20px;
+    flex-direction: column;
+}
+
+.inicio {
+    top: auto;
+    left: 500px;
+    flex-direction: column;
+}
+
+.comeco {}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    left: 500PX;
+}
+
+.subtitulo {
+    color: white;
+    flex-direction: column;
+    position: left;
+}

@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.titulo {
+    border: 1px solid salmon;
+    background: green;
+    height: 40px;
+}
+
+.logo {
+    border: 1px solid rgb(114, 239, 250);
+}
+
+.menu {
+    border: 1px solid rgb(155, 250, 114);
+    height: 75px;
+    background: #027e01;
+}
+
+.content {
+    border: 1px solid rgb(248, 250, 114);
+}
