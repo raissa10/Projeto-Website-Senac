@@ -9,21 +9,67 @@ html {
 }
 
 .titulo {
-    border: 1px solid salmon;
-    background: green;
+    background: #027e01;
     height: 40px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Roboto', Trebuchet MS, sans-serif;
 }
 
 .logo {
-    border: 1px solid rgb(114, 239, 250);
+    /* border: 1px solid rgb(114, 239, 250); */
+    padding: 50px 0;
+    text-align: center;
 }
 
 .menu {
-    border: 1px solid rgb(155, 250, 114);
-    height: 75px;
+    /* border: 1px solid rgb(155, 250, 114); */
+    height: 55px;
     background: #027e01;
+    box-shadow: inset 0px 0px 25px 0px rgb(0, 0, 0);
 }
 
-.content {
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    gap: 15px;
+}
+
+.menu ul li {
+    list-style: none;
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: background-color 300ms ease, border 300ms ease, color 300ms ease;
+}
+
+.menu ul li:hover {
+    background-color: rgb(255, 225, 0);
+    color: #027e01;
+    cursor: pointer;
+}
+
+/* .content {
     border: 1px solid rgb(248, 250, 114);
+} */
+
+.footer {
+    height: 55px;
+    background: #027e01;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
